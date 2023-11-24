@@ -1,3 +1,30 @@
+/*Alinhando texto*/
 body{
     text-align: center;
+}
+/*Ajustando tamanho,fonte e o cursor*/
+h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    cursor: default;
+}
+/*Criando as propriedas do efeito e passando o backgorund color para tras do texto*/
+h1::before{
+    content: "";
+    background-color: blueviolet;
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: transform 300ms ease;
+    transform-origin: right;
+    transform: scaleX(0)
+}
+/*Iniciando animação do efeito*/
+h1:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
 }
