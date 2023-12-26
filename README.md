@@ -1,4 +1,5 @@
 Efeito Hover sobre o Texto
 
 
-![hover](https://github.com/Crazyez01/EfeitoHover/assets/97403345/4793f754-5fc3-4aca-8ea2-7f43f01e5e1e)
+![Vídeo-sem-título-‐-Feito-com-o-Clipchamp-_1__1](https://github.com/Crazyez01/EfeitoHover/assets/97403345/6a0511a8-3bce-40c2-8a43-d4dd24fa4805)
+
